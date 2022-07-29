@@ -1,0 +1,39 @@
+site_name: 虚谷数据库文档
+nav:
+  - 主页: index.md
+  - JDBC同步测试: JDBC.md
+  - JDBC2安装介绍:
+      - JDBC7: JDBC7.md
+      - JDBC8: JDBC8.md
+      - JDBC7-8:
+          - JDBC7: JDBC7.md
+          - JDBC7: JDBC8.md
+  - JDBCelse:
+      - JDBC3: JDBC3.md
+      - JDBC4: JDBC4.md
+      - JDBC5-6:
+          - JDBC5: JDBC5.md
+          - JDBC6: JDBC6.md
+theme:
+  name: material
+  language: zh
+  font:
+     text: Roboto
+  logo: images/logo.jpg
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  icon:
+    repo: fontawesome/brands/gitlab
+extra_css:
+  - 'stylesheets/extra.css'
+copyright: Copyright © 2021 xugu
+plugins:
+  - search:
+  - autolinks
+  - gitsnippet
+  - git-committers:
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
+base_path: docs

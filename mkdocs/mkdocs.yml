@@ -19,7 +19,7 @@ theme:
   language: zh
   font:
      text: Roboto
-  logo: images/logo.jpg
+  logo: images/logo.png
   features:
     - navigation.tabs
     - navigation.tabs.sticky

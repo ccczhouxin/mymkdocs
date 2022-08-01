@@ -19,7 +19,7 @@ theme:
   language: zh
   font:
      text: Roboto
-  logo: images/logo.png
+  logo: images/logo_xgdbms.png
   features:
     - navigation.tabs
     - navigation.tabs.sticky

@@ -20,9 +20,6 @@ theme:
   font:
      text: Roboto
   logo: images/logo_xgdbms.png
-  features:
-    - navigation.tabs
-    - navigation.tabs.sticky
   icon:
     repo: fontawesome/brands/gitlab
 extra_css:

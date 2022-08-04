@@ -64,7 +64,7 @@ Java 数据库连接（Java Database Connectivity，简称 JDBC）是 Java 语�
 4. 处理执行结果；
 5. 关闭 Statement；
 6. 关闭连接。
-
+![log](images/log.png)
 JDBC 结构图, 如图1.1所示。
 <center>
 

@@ -979,7 +979,21 @@ $(n).show();
 <script type="text/javascript">
 
 function printpage() {
-      window.print(); // 调用浏览器的打印功能打印
+
+    var he = window.location.href;
+    var pro = window.location.protocol;
+    var host = window.location.host;
+    var port = window.location.port;
+    var re = pro+"//"+host
+    var add = he.substring(re.length);
+    var res = add.substring(0,add.length-1)
+    console.log(he)
+    console.log(re)
+    if (he==re+'/'){
+        window.open('../index.pdf');
+    }else {
+        window.open('../' + res + '.pdf');
+    }
 }
     </script>
 </html>
